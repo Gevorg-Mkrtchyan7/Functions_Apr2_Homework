@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.c"
 
 int fakt(int num){

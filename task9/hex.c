@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.c"
 
 int hex(int num){

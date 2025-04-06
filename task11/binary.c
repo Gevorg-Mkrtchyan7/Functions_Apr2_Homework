@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.c"
 
 int binary(int num){
 	int res = 1;
 	int res2 = 0;
 	int a = 0;
-	for(int i = 0; num > 0; ++i){
+	while(num){
 		if(num % 2 != 0){
 			a = 1;
 			res = res * 10 + a;	

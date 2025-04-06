@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.c"
 
 int digits_sum(int num){
