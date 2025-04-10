@@ -1,6 +1,6 @@
-#include "main.c"
+#include <stdio.h>
 
-int binary(int num){
+void binary(int num){
 	int res = 1;
 	int res2 = 0;
 	int a = 0;
@@ -21,5 +21,4 @@ int binary(int num){
 		res /= 10;
 	}
 	printf("%d \n", res2 / 10);
-	return 0;
 }

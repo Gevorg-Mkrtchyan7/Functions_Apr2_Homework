@@ -1,6 +1,6 @@
-#include "main.c"
+#include <stdio.h>
 
-int hex(int num){
+void hex(int num){
 	int a = 0;
 	int c = 0;
 	int num2 = num;
@@ -23,6 +23,4 @@ int hex(int num){
 		printf("%c", arr[i]);
 	}	
 	printf("\n");
-
-	return 0;
 }

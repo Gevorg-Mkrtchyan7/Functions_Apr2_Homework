@@ -1,4 +1,4 @@
-#include "main.c"
+#include <stdio.h>
 
 int power(int num, int pow){
 	int res = 1;

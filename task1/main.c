@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include<stdio.h>
+void bazm(int a);
 
-
-int bazm(int a);
 int main(){
 	int a = 0;
 	scanf("%d", &a);

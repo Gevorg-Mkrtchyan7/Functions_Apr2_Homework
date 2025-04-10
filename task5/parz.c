@@ -1,6 +1,6 @@
 #include "main.c"
 
-int parz(int num){
+void parz(int num){
 	if(num == 1){
 		printf("This isn't simple number \n");
 		return 0;
@@ -12,5 +12,4 @@ int parz(int num){
 		}
 	}
 	printf("This is simple number \n");
-	return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int binary(int);
+void binary(int);
 
 int main(){
 	int num = 0;

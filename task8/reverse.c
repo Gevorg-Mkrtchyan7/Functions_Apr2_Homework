@@ -1,4 +1,4 @@
-#include "main.c"
+#include <stdio.h>
 
 int reverse(int num){
 	int res = 0;

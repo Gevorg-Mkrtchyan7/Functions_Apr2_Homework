@@ -1,4 +1,4 @@
-#include "main.c"
+#include <stdio.h>
 
 int digits_sum(int num){
 	int a = 0;
@@ -8,6 +8,5 @@ int digits_sum(int num){
 		res += a;
 		num /= 10;
 	}
-	printf("%d \n", res);
-	return 0;
+	return res;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int hex(int);
+void hex(int);
 
 int main(){
 	int num = 0;

@@ -1,4 +1,4 @@
-#include "main.c"
+#include <stdio.h>
 
 int parz_sum(int num){
 	for(int i = 0; i < 4; ++i){

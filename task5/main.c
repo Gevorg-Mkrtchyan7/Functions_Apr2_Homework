@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int parz(int);
+void parz(int);
 
 int main(){
 	int num = 0;
